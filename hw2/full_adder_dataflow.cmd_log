@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "E:/cad_code/hw2/full_adder_dataflow.xst" -ofn "E:/cad_code/hw2/full_adder_dataflow.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 full_adder_dataflow.ngc full_adder_dataflow.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o full_adder_dataflow_map.ncd full_adder_dataflow.ngd full_adder_dataflow.pcf 
+par -w -intstyle ise -ol high -mt off full_adder_dataflow_map.ncd full_adder_dataflow.ncd full_adder_dataflow.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml full_adder_dataflow.twx full_adder_dataflow.ncd -o full_adder_dataflow.twr full_adder_dataflow.pcf 
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o full_adder_dataflow_map.ncd full_adder_dataflow.ngd full_adder_dataflow.pcf 

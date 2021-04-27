@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "E:/cad_code/hw1/d_latch.xst" -ofn "E:/cad_code/hw1/d_latch.syr" 

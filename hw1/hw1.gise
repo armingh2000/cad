@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="hw1.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="circuit_design.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="circuit_design.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="circuit_design.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="d_flipflop.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="d_flipflop.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="d_flipflop.xst"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="d_latch.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="d_latch.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="d_latch.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="d_latch.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="d_latch.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="d_latch.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="d_latch_summary.html"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="fifo.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="fifo.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="fifo.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="mux.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="mux.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="mux.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="mux.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="mux.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="mux.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="mux.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="mux.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="mux.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="mux.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="mux.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="mux.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="mux.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="mux.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="mux.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="mux.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="mux.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="mux.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="mux.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="mux_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="mux_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="mux_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="mux_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="mux_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="mux_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="mux_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="mux_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="mux_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="mux_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="mux_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="mux_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="mux_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="mux_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="mux_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="p_encoder.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="p_encoder.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="p_encoder.xst"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1618924425" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1618924425">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1618924425" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-1643457178766462609" xil_pn:start_ts="1618924425">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1618924425" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="1738334605516605463" xil_pn:start_ts="1618924425">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1618924425" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1618924425">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1618924425" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="5342852385522557521" xil_pn:start_ts="1618924425">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1618924425" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="3206529612922900429" xil_pn:start_ts="1618924425">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1618924425" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-8932595353651307423" xil_pn:start_ts="1618924425">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1619240036" xil_pn:in_ck="-579271004348267314" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="1273085810100163945" xil_pn:start_ts="1619240025">
+      <status xil_pn:value="AbortedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="d_latch.lso"/>
+      <outfile xil_pn:name="d_latch.prj"/>
+      <outfile xil_pn:name="d_latch.syr"/>
+      <outfile xil_pn:name="d_latch.xst"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1618924443" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="3734212952604540" xil_pn:start_ts="1618924443">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1618924524" xil_pn:in_ck="145492936512" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-6033493464893082776" xil_pn:start_ts="1618924506">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="mux.bld"/>
+      <outfile xil_pn:name="mux.ngd"/>
+      <outfile xil_pn:name="mux_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1618924583" xil_pn:in_ck="145492936513" xil_pn:name="TRANEXT_map_virtex7" xil_pn:prop_ck="2100985583056581773" xil_pn:start_ts="1618924524">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="mux.pcf"/>
+      <outfile xil_pn:name="mux_map.map"/>
+      <outfile xil_pn:name="mux_map.mrp"/>
+      <outfile xil_pn:name="mux_map.ncd"/>
+      <outfile xil_pn:name="mux_map.ngm"/>
+      <outfile xil_pn:name="mux_map.xrpt"/>
+      <outfile xil_pn:name="mux_summary.xml"/>
+      <outfile xil_pn:name="mux_usage.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1618924630" xil_pn:in_ck="172545215555866330" xil_pn:name="TRANEXT_par_virtex5" xil_pn:prop_ck="-2283627392121029586" xil_pn:start_ts="1618924583">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <outfile xil_pn:name="mux.ncd"/>
+      <outfile xil_pn:name="mux.pad"/>
+      <outfile xil_pn:name="mux.par"/>
+      <outfile xil_pn:name="mux.ptwx"/>
+      <outfile xil_pn:name="mux.unroutes"/>
+      <outfile xil_pn:name="mux.xpi"/>
+      <outfile xil_pn:name="mux_pad.csv"/>
+      <outfile xil_pn:name="mux_pad.txt"/>
+      <outfile xil_pn:name="mux_par.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1618924630" xil_pn:in_ck="145492936381" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1618924612">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <outfile xil_pn:name="mux.twr"/>
+      <outfile xil_pn:name="mux.twx"/>
+    </transform>
+  </transforms>
+
+</generated_project>

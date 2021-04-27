@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "E:/cad_code/hw2/full_adder_behavioral_tb_isim_beh.exe" -prj "E:/cad_code/hw2/full_adder_behavioral_tb_beh.prj" "work.full_adder_behavioral_tb" "work.glbl" 
