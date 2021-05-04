@@ -1,17 +1,22 @@
 Release 14.7 ngdbuild P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-Command Line: E:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
--intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3
-full_adder_dataflow.ngc full_adder_dataflow.ngd
+Command Line: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
+-intstyle ise -dd _ngo -nt timestamp -i -bm full_adder_behavioral_tb.bmm -p
+xc7a100t-csg324-3 full_adder_dataflow.ngc full_adder_dataflow.ngd
 
-Reading NGO file "E:/cad_code/hw2/full_adder_dataflow.ngc" ...
+Reading NGO file "E:/projects/CAD/hw2/full_adder_dataflow.ngc" ...
 Gathering constraint information from source properties...
 Done.
 
 Resolving constraint associations...
 Checking Constraint Associations...
 Done...
+
+Processing BMM file "full_adder_behavioral_tb.bmm" ...
+
+WARNING::53 - File 'full_adder_behavioral_tb.bmm' is empty or has no BMM content.
+
 
 Checking expanded design ...
 
@@ -26,10 +31,10 @@ NGDBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:   0
 
-Total memory usage is 4463256 kilobytes
+Total memory usage is 4440904 kilobytes
 
 Writing NGD file "full_adder_dataflow.ngd" ...
-Total REAL time to NGDBUILD completion:  10 sec
-Total CPU time to NGDBUILD completion:   7 sec
+Total REAL time to NGDBUILD completion:  7 sec
+Total CPU time to NGDBUILD completion:   6 sec
 
 Writing NGDBUILD log file "full_adder_dataflow.bld"...

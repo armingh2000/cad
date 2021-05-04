@@ -2,7 +2,7 @@
 Release 14.7 Trace  (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-E:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
 -n 3 -fastpaths -xml full_adder_dataflow.twx full_adder_dataflow.ncd -o
 full_adder_dataflow.twr full_adder_dataflow.pcf
 
@@ -45,7 +45,7 @@ cin            |sum            |    5.270|
 ---------------+---------------+---------+
 
 
-Analysis completed Tue Apr 27 17:56:11 2021 
+Analysis completed Tue May 04 05:56:44 2021 
 --------------------------------------------------------------------------------
 
 Trace Settings:

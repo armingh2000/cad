@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "E:/projects/CAD/hw2/sub_structrual.xst" -ofn "E:/projects/CAD/hw2/sub_structrual.syr" 
+xst -intstyle ise -ifn "E:/projects/CAD/hw2/sub_structrual.xst" -ofn "E:/projects/CAD/hw2/sub_structrual.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -bm full_adder_behavioral_tb.bmm -p xc7a100t-csg324-3 sub_structrual.ngc sub_structrual.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o sub_structrual_map.ncd sub_structrual.ngd sub_structrual.pcf 
+par -w -intstyle ise -ol high -mt off sub_structrual_map.ncd sub_structrual.ncd sub_structrual.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sub_structrual.twx sub_structrual.ncd -o sub_structrual.twr sub_structrual.pcf 
