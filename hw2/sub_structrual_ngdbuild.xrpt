@@ -5,7 +5,7 @@
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
-  <application stringID="NgdBuild" timeStamp="Tue May 04 06:07:14 2021">
+  <application stringID="NgdBuild" timeStamp="Fri May 07 01:01:12 2021">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
@@ -24,7 +24,7 @@
         </row>
         <row stringID="row" value="3">
           <item stringID="variable" value="XILINXD_LICENSE_FILE"/>
-          <item stringID="value" value="D:\PROGRAMMING APPS\xilinx\Xilinx.ISE.Design.Suite.v14.7_p30download.com\DVD Image\Image\Crack\xilinx_ise.lic"/>
+          <item stringID="value" value="D:\apps\PROGRAMMING APPS\xilinx\Xilinx.ISE.Design.Suite.v14.7_p30download.com\DVD Image\Image\Crack\xilinx_ise.lic"/>
         </row>
         <row stringID="row" value="4">
           <item stringID="variable" value="XILINX_DSP"/>
