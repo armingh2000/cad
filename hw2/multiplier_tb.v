@@ -20,18 +20,17 @@ module multiplier_tb;
 
 	initial begin
 		// Initialize Inputs
-		a = 0;
-		b = 0;
+		a = 2;
+		b = 3;
 
 		// Wait 100 ns for global reset to finish
 		#100;
-		
-		a = 2;
-		b = 3;
+		a = 3;
+		b = 4;
 		
 		#100;
-		a = 7;
-		b = 5;
+		a = 5;
+		b = 9;
         
 		// Add stimulus here
 

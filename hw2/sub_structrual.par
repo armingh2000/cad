@@ -1,7 +1,7 @@
 Release 14.7 par P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-LAPTOP-VS8VCQ55::  Fri May 07 01:01:36 2021
+LAPTOP-VS8VCQ55::  Sun May 09 15:33:24 2021
 
 par -w -intstyle ise -ol high -mt off sub_structrual_map.ncd sub_structrual.ncd
 sub_structrual.pcf 
@@ -104,17 +104,17 @@ Phase  2  : 19 unrouted;      REAL time: 13 secs
 
 Phase  3  : 8 unrouted;      REAL time: 13 secs 
 
-Phase  4  : 8 unrouted; (Par is working to improve performance)     REAL time: 17 secs 
+Phase  4  : 8 unrouted; (Par is working to improve performance)     REAL time: 16 secs 
 
 Updating file: sub_structrual.ncd with current fully routed design.
 
-Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 17 secs 
+Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 16 secs 
 
-Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 17 secs 
+Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 16 secs 
 
-Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 17 secs 
+Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 16 secs 
 
-Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 17 secs 
+Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 16 secs 
 
 Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 17 secs 
 Total REAL time to Router completion: 17 secs 
