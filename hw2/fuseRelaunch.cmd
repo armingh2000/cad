@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "E:/cad_code/hw2/divider_tb_isim_beh.exe" -prj "E:/cad_code/hw2/divider_tb_beh.prj" "work.divider_tb" "work.glbl" 
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "E:/cad_code/hw2/multiplier_tb_isim_beh.exe" -prj "E:/cad_code/hw2/multiplier_tb_beh.prj" "work.multiplier_tb" "work.glbl" 
