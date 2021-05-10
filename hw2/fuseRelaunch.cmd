@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "E:/cad_code/hw2/carry_lookahead_adder_16_tb_isim_beh.exe" -prj "E:/cad_code/hw2/carry_lookahead_adder_16_tb_beh.prj" "work.carry_lookahead_adder_16_tb" "work.glbl" 
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "E:/cad_code/hw2/divider_tb_isim_beh.exe" -prj "E:/cad_code/hw2/divider_tb_beh.prj" "work.divider_tb" "work.glbl" 

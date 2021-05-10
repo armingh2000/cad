@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2021-05-06T00:17:24</DateModified>
+  <DateModified>2021-05-09T17:32:35</DateModified>
   <ModuleName>ripple_adder_4bit</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>E:/cad_code/hw2/iseconfig/ripple_adder_4bit.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>E:/cad_code/hw2</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>E:/cad_code/hw2\</ImplementationReportsDirectory>
   <DateInitialized>2021-05-06T00:17:23</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

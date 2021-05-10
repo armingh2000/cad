@@ -1,4 +1,0 @@
-verilog work "carry_lookahead_adder_4.v"
-verilog work "carry_lookahead_adder.v"
-verilog work "carry_lookahead_adder_16_tb.v"
-verilog work "E:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

@@ -30,10 +30,14 @@
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="carry_lookahead_adder_16_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="carry_lookahead_adder_16_stx_beh.prj"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="carry_lookahead_adder_16_tb_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="carry_lookahead_adder_16_tb_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="carry_lookahead_adder_16_tb_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="carry_lookahead_adder_4_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="divider_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="divider_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="divider_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="divider_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="divider_tb_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="divider_tb_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="full_adder_behavioral.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="full_adder_behavioral.stx"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="full_adder_behavioral.xst"/>
@@ -103,12 +107,14 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1620243964" xil_pn:in_ck="-5050341998347034046" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1620243964">
+    <transform xil_pn:end_ts="1620330425" xil_pn:in_ck="-4432508208504318611" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1620330425">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="carry_lookahead_adder.v"/>
       <outfile xil_pn:name="carry_lookahead_adder_16_tb.v"/>
       <outfile xil_pn:name="carry_lookahead_adder_4.v"/>
+      <outfile xil_pn:name="divider.v"/>
+      <outfile xil_pn:name="divider_tb.v"/>
       <outfile xil_pn:name="full_adder.v"/>
       <outfile xil_pn:name="full_adder_behavioral.v"/>
       <outfile xil_pn:name="full_adder_behavioral_tb.v"/>
@@ -118,11 +124,11 @@
       <outfile xil_pn:name="ripple_adder_4bit.v"/>
       <outfile xil_pn:name="ripple_adder_4bit_tb.v"/>
     </transform>
-    <transform xil_pn:end_ts="1620243722" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-3824442744525545191" xil_pn:start_ts="1620243722">
+    <transform xil_pn:end_ts="1620330104" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="4446707904207499635" xil_pn:start_ts="1620330104">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1620243722" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="559283243142944951" xil_pn:start_ts="1620243722">
+    <transform xil_pn:end_ts="1620330104" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="7269291045972082705" xil_pn:start_ts="1620330104">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
@@ -130,12 +136,14 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1620243964" xil_pn:in_ck="-5050341998347034046" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1620243964">
+    <transform xil_pn:end_ts="1620330425" xil_pn:in_ck="-4432508208504318611" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1620330425">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="carry_lookahead_adder.v"/>
       <outfile xil_pn:name="carry_lookahead_adder_16_tb.v"/>
       <outfile xil_pn:name="carry_lookahead_adder_4.v"/>
+      <outfile xil_pn:name="divider.v"/>
+      <outfile xil_pn:name="divider_tb.v"/>
       <outfile xil_pn:name="full_adder.v"/>
       <outfile xil_pn:name="full_adder_behavioral.v"/>
       <outfile xil_pn:name="full_adder_behavioral_tb.v"/>
@@ -145,27 +153,24 @@
       <outfile xil_pn:name="ripple_adder_4bit.v"/>
       <outfile xil_pn:name="ripple_adder_4bit_tb.v"/>
     </transform>
-    <transform xil_pn:end_ts="1620243967" xil_pn:in_ck="-5050341998347034046" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-7742383403934414463" xil_pn:start_ts="1620243964">
+    <transform xil_pn:end_ts="1620330428" xil_pn:in_ck="-4432508208504318611" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="2462875430105597749" xil_pn:start_ts="1620330425">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="carry_lookahead_adder_16_tb_beh.prj"/>
-      <outfile xil_pn:name="carry_lookahead_adder_16_tb_isim_beh.exe"/>
+      <outfile xil_pn:name="divider_tb_beh.prj"/>
+      <outfile xil_pn:name="divider_tb_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1620243967" xil_pn:in_ck="1666511301390875776" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="7849520436468002916" xil_pn:start_ts="1620243967">
+    <transform xil_pn:end_ts="1620330429" xil_pn:in_ck="2999440927490584115" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="2316265520406503032" xil_pn:start_ts="1620330428">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="carry_lookahead_adder_16_tb_isim_beh.wdb"/>
+      <outfile xil_pn:name="divider_tb_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
     </transform>
