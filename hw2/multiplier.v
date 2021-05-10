@@ -16,6 +16,43 @@ module xor_2(output c,input a,input b);
 	and(c, w1, w2);
 endmodule
 
+module absolute_4(output [3:0] b, input [3:0] a, input sign);
+	wire [3:0] w;
+	wire [3:0] cout;
+	//negate a (if sign == 1)
+	xor_2 x1 (w[0], a[0], sign);
+	xor_2 x2 (w[1], a[1], sign);
+	xor_2 x3 (w[2], a[2], sign);
+	xor_2 x4 (w[3], a[3], sign);
+	// add a with sign
+	fulladder_and f1 (w[0], 1'b0, sign, b[0], cout[0]); 
+	fulladder_and f2 (w[1], 1'b0, cout[0], b[1], cout[1]); 
+	fulladder_and f3 (w[2], 1'b0, cout[1], b[2], cout[2]); 
+	fulladder_and f4 (w[3], 1'b0, cout[2], b[3], cout[3]); 
+endmodule
+
+module absolute_8(output [7:0] b, input [7:0] a, input sign);
+	wire [7:0] w;
+	wire [7:0] cout;
+	//negate a (if sign == 1)
+	xor_2 x1 (w[0], a[0], sign);
+	xor_2 x2 (w[1], a[1], sign);
+	xor_2 x3 (w[2], a[2], sign);
+	xor_2 x4 (w[3], a[3], sign);
+	xor_2 x5 (w[4], a[4], sign);
+	xor_2 x6 (w[5], a[5], sign);
+	xor_2 x7 (w[6], a[6], sign);
+	xor_2 x8 (w[7], a[7], sign);
+	// add a with sign
+	fulladder_and f1 (w[0], 1'b0, sign, b[0], cout[0]); 
+	fulladder_and f2 (w[1], 1'b0, cout[0], b[1], cout[1]); 
+	fulladder_and f3 (w[2], 1'b0, cout[1], b[2], cout[2]); 
+	fulladder_and f4 (w[3], 1'b0, cout[2], b[3], cout[3]); 
+	fulladder_and f5 (w[4], 1'b0, cout[3], b[4], cout[4]); 
+	fulladder_and f6 (w[5], 1'b0, cout[4], b[5], cout[5]); 
+	fulladder_and f7 (w[6], 1'b0, cout[5], b[6], cout[6]); 
+	fulladder_and f8 (w[7], 1'b0, cout[6], b[7], cout[7]); 
+endmodule
 
 module fulladder_and(input a, input b, input cin, output s, output cout);
 	wire w1, w2, w3;
@@ -40,7 +77,7 @@ module adder_and(output [7:0] c,input [7:0] a,input [7:0] b);
 endmodule
 
 
-module multiplier(input [3:0] a, input [3:0] b, output [7:0] c);
+module multiplier(input [3:0] num1, input [3:0] num2, output [7:0] c);
 	wire [7:0] s1=8'b0000????;
 	wire [7:0] s2=8'b000????0;
 	wire [7:0] s3=8'b00????00;
@@ -48,7 +85,22 @@ module multiplier(input [3:0] a, input [3:0] b, output [7:0] c);
 	
 	wire [7:0] ans1;
 	wire [7:0] ans2;
+	wire [7:0] ans3;
 	
+	wire [3:0] a;
+	wire [3:0] b;
+	
+	wire sign;
+	
+	// get multiplication sign
+	xor_2 sign_xor (sign, num1[3], num2[3]);
+	
+	// absolute numbers
+	absolute_4 abs1 (a, num1, num1[3]);
+	absolute_4 abs2 (b, num2, num2[3]);
+	
+	
+	// calcute multiple of numbers
 	and h1 (s1[0], b[0], a[0]);
 	and h2 (s1[1], b[0], a[1]);
 	and h3 (s1[2], b[0], a[2]);
@@ -73,6 +125,8 @@ module multiplier(input [3:0] a, input [3:0] b, output [7:0] c);
 	
 	adder_and a1 (ans1, s1, s2);
 	adder_and a2 (ans2, ans1, s3);
-	adder_and a3 (c, ans2, s4);
+	adder_and a3 (ans3, ans2, s4);
+	
+	absolute_8 abs3 (c, ans3, sign);
 
 endmodule

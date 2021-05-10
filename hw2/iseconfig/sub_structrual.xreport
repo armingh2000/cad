@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2021-05-10T08:37:25</DateModified>
+  <DateModified>2021-05-10T14:15:10</DateModified>
   <ModuleName>sub_structrual</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>E:/cad_code/hw2/iseconfig/sub_structrual.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>E:/cad_code/hw2\</ImplementationReportsDirectory>
+  <SavedFilePath>E:/projects/CAD/hw2/iseconfig/sub_structrual.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>E:/projects/CAD/hw2\</ImplementationReportsDirectory>
   <DateInitialized>2021-05-06T15:46:46</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

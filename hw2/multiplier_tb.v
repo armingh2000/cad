@@ -5,42 +5,40 @@
 module multiplier_tb;
 
 	// Inputs
-	reg [3:0] a;
-	reg [3:0] b;
+	reg [3:0] num1;
+	reg [3:0] num2;
 
 	// Outputs
 	wire [7:0] c;
 
 	// Instantiate the Unit Under Test (UUT)
 	multiplier uut (
-		.a(a), 
-		.b(b), 
+		.num1(num1), 
+		.num2(num2), 
 		.c(c)
 	);
 
 	initial begin
 		// Initialize Inputs
-		a = 0;
-		b = 0;
+		num1 = 0;
+		num2 = 0;
 		
 		#100;
-		a = 2;
-		b = 3;
+		num1 = 2;
+		num2 = 3;
 
-		// Wait 100 ns for global reset to finish
 		#100;
-		a = 3;
-		b = 4;
+		num1 = 7;
+		num2 = 7;
 		
 		#100;
-		a = 5;
-		b = 9;
+		num1 = 11;  //-5
+		num2 = 2;
 		
 		#100;
-		a = 1;
-		b = 1;
-        
-		// Add stimulus here
+		num1 = 12;  //-4
+		num2 = 13;   //-3
+       
 
 	end
       

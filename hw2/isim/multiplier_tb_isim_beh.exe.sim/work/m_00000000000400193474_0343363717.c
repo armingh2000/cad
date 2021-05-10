@@ -24,7 +24,7 @@
 
 
 
-static void Gate_23_0(char *t0)
+static void Gate_60_0(char *t0)
 {
     char *t1;
     char *t2;
@@ -62,7 +62,7 @@ LAB2:    t2 = (t0 + 1048U);
 LAB1:    return;
 }
 
-static void Gate_24_1(char *t0)
+static void Gate_61_1(char *t0)
 {
     char *t1;
     char *t2;
@@ -100,7 +100,7 @@ LAB2:    t2 = (t0 + 1048U);
 LAB1:    return;
 }
 
-static void Gate_25_2(char *t0)
+static void Gate_62_2(char *t0)
 {
     char *t1;
     char *t2;
@@ -138,7 +138,7 @@ LAB2:    t2 = (t0 + 1208U);
 LAB1:    return;
 }
 
-static void Gate_26_3(char *t0)
+static void Gate_63_3(char *t0)
 {
     char *t1;
     char *t2;
@@ -182,7 +182,7 @@ LAB1:    return;
 
 extern void work_m_00000000000400193474_0343363717_init()
 {
-	static char *pe[] = {(void *)Gate_23_0,(void *)Gate_24_1,(void *)Gate_25_2,(void *)Gate_26_3};
+	static char *pe[] = {(void *)Gate_60_0,(void *)Gate_61_1,(void *)Gate_62_2,(void *)Gate_63_3};
 	xsi_register_didat("work_m_00000000000400193474_0343363717", "isim/multiplier_tb_isim_beh.exe.sim/work/m_00000000000400193474_0343363717.didat");
 	xsi_register_executes(pe);
 }
