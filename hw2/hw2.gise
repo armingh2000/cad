@@ -67,9 +67,7 @@
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="full_adder_dataflow_xst.xrpt"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="full_adder_structural_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="full_adder_structural_stx_beh.prj"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="full_adder_structural_tb_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="full_adder_structural_tb_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="full_adder_structural_tb_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="full_adder_tb_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="full_adder_tb_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="full_adder_tb_isim_beh.wdb"/>
@@ -81,6 +79,7 @@
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="multiplier_tb_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="multiplier_tb_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="multiplier_tb_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="multiplier_tb_stx_beh.prj"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="sub_structrual.bld"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="sub_structrual.cmd_log"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="sub_structrual.lso"/>
@@ -126,7 +125,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1620558348" xil_pn:in_ck="-5065561495417803347" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1620558348">
+    <transform xil_pn:end_ts="1620629716" xil_pn:in_ck="-5065561495417803347" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1620629716">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="full_adder.v"/>
@@ -139,11 +138,11 @@
       <outfile xil_pn:name="multiplier_tb.v"/>
       <outfile xil_pn:name="sub_structural.v"/>
     </transform>
-    <transform xil_pn:end_ts="1620312116" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-8324787791158116077" xil_pn:start_ts="1620312116">
+    <transform xil_pn:end_ts="1620620197" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-8324787791158116077" xil_pn:start_ts="1620620197">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1620312116" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="8074523399306198961" xil_pn:start_ts="1620312116">
+    <transform xil_pn:end_ts="1620620197" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="8074523399306198961" xil_pn:start_ts="1620620197">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
@@ -151,7 +150,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1620558348" xil_pn:in_ck="-5065561495417803347" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1620558348">
+    <transform xil_pn:end_ts="1620629716" xil_pn:in_ck="-5065561495417803347" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1620629716">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="full_adder.v"/>
@@ -164,7 +163,7 @@
       <outfile xil_pn:name="multiplier_tb.v"/>
       <outfile xil_pn:name="sub_structural.v"/>
     </transform>
-    <transform xil_pn:end_ts="1620558351" xil_pn:in_ck="-5065561495417803347" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-5199301294531809547" xil_pn:start_ts="1620558348">
+    <transform xil_pn:end_ts="1620629719" xil_pn:in_ck="-5065561495417803347" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-5199301294531809547" xil_pn:start_ts="1620629716">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="fuse.log"/>
@@ -174,7 +173,7 @@
       <outfile xil_pn:name="multiplier_tb_isim_beh.exe"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1620558351" xil_pn:in_ck="-2872843715618113947" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="2753004655937919960" xil_pn:start_ts="1620558351">
+    <transform xil_pn:end_ts="1620629719" xil_pn:in_ck="-2872843715618113947" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="2753004655937919960" xil_pn:start_ts="1620629719">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="isim.cmd"/>
@@ -213,7 +212,9 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
       <outfile xil_pn:name="sub_structrual.lso"/>
@@ -234,6 +235,7 @@
     <transform xil_pn:end_ts="1620558181" xil_pn:in_ck="306204571843624094" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-8782141598850778320" xil_pn:start_ts="1620558173">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="_ngo"/>
       <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
       <outfile xil_pn:name="sub_structrual.bld"/>
@@ -244,6 +246,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
       <outfile xil_pn:name="sub_structrual.pcf"/>
       <outfile xil_pn:name="sub_structrual_map.map"/>
@@ -257,6 +260,7 @@
     <transform xil_pn:end_ts="1620558238" xil_pn:in_ck="-2611921538268235547" xil_pn:name="TRANEXT_par_virtex5" xil_pn:prop_ck="-2283627392121029586" xil_pn:start_ts="1620558203">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
       <outfile xil_pn:name="sub_structrual.ncd"/>
       <outfile xil_pn:name="sub_structrual.pad"/>
@@ -271,6 +275,7 @@
     <transform xil_pn:end_ts="1620558238" xil_pn:in_ck="-2180958100617225877" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1620558224">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
       <outfile xil_pn:name="sub_structrual.twr"/>
       <outfile xil_pn:name="sub_structrual.twx"/>

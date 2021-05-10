@@ -1,13 +1,12 @@
-Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o E:/projects/CAD/hw2/multiplier_tb_isim_beh.exe -prj E:/projects/CAD/hw2/multiplier_tb_beh.prj work.multiplier_tb work.glbl 
+Running: E:\xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o E:/cad_code/hw2/multiplier_tb_isim_beh.exe -prj E:/cad_code/hw2/multiplier_tb_beh.prj work.multiplier_tb work.glbl 
 ISim P.20131013 (signature 0x7708f090)
-Number of CPUs detected in this system: 12
-Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
 Determining compilation order of HDL files
-Analyzing Verilog file "E:/projects/CAD/hw2/multiplier.v" into library work
-Analyzing Verilog file "E:/projects/CAD/hw2/multiplier_tb.v" into library work
-Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Analyzing Verilog file "E:/cad_code/hw2/multiplier.v" into library work
+Analyzing Verilog file "E:/cad_code/hw2/multiplier_tb.v" into library work
+Analyzing Verilog file "E:/xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
 Starting static elaboration
-WARNING:HDLCompiler:189 - "E:/projects/CAD/hw2/multiplier.v" Line 32: Size mismatch in connection of port <cin>. Formal port size is 1-bit while actual signal size is 32-bit.
 Completed static elaboration
 Compiling module xor_3
 Compiling module fulladder_and
@@ -16,8 +15,8 @@ Compiling module multiplier
 Compiling module multiplier_tb
 Compiling module glbl
 Time Resolution for simulation is 1ps.
-Waiting for 1 sub-compilation(s) to finish...
+Waiting for 6 sub-compilation(s) to finish...
 Compiled 6 Verilog Units
-Built simulation executable E:/projects/CAD/hw2/multiplier_tb_isim_beh.exe
-Fuse Memory Usage: 29208 KB
-Fuse CPU Usage: 483 ms
+Built simulation executable E:/cad_code/hw2/multiplier_tb_isim_beh.exe
+Fuse Memory Usage: 28348 KB
+Fuse CPU Usage: 437 ms

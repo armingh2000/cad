@@ -2,16 +2,16 @@
 
 module xor_3(output d,input a,input b,input c);
 	wire w1, w2, w3, w4;
-	nand(w1, !a, !b, c);
-	nand(w2, !a, b, !c);
-	nand(w3, a, !b, !c);
+	nand(w1, ~a, ~b, c);
+	nand(w2, ~a, b, ~c);
+	nand(w3, a, ~b, ~c);
 	nand(w4, a, b, c);
 	nand(d, w1, w2, w3, w4);
 endmodule
 
 module xor_2(output c,input a,input b);
 	wire w1, w2;
-	nand(w1, !a, !b);
+	nand(w1, ~a, ~b);
 	nand(w2, a, b);
 	and(c, w1, w2);
 endmodule
@@ -29,7 +29,7 @@ endmodule
 
 module adder_and(output [7:0] c,input [7:0] a,input [7:0] b);
 	wire [7:0] cout; 
-	fulladder_and f1 (a[0], b[0], 0, c[0], cout[0]);
+	fulladder_and f1 (a[0], b[0], 1'b0, c[0], cout[0]);
 	fulladder_and f2 (a[1], b[1], cout[0], c[1], cout[1]);
 	fulladder_and f3 (a[2], b[2], cout[1], c[2], cout[2]);
 	fulladder_and f4 (a[3], b[3], cout[2], c[3], cout[3]);
@@ -41,13 +41,13 @@ endmodule
 
 
 module multiplier(input [3:0] a, input [3:0] b, output [7:0] c);
-	wire [7:0] s1=0;
-	wire [7:0] s2=0;
-	wire [7:0] s3=0;
-	wire [7:0] s4=0;
+	wire [7:0] s1=8'b0000????;
+	wire [7:0] s2=8'b000????0;
+	wire [7:0] s3=8'b00????00;
+	wire [7:0] s4=8'b0????000;
 	
-	wire [7:0] ans1=0;
-	wire [7:0] ans2=0;
+	wire [7:0] ans1;
+	wire [7:0] ans2;
 	
 	and h1 (s1[0], b[0], a[0]);
 	and h2 (s1[1], b[0], a[1]);
@@ -74,6 +74,5 @@ module multiplier(input [3:0] a, input [3:0] b, output [7:0] c);
 	adder_and a1 (ans1, s1, s2);
 	adder_and a2 (ans2, ans1, s3);
 	adder_and a3 (c, ans2, s4);
-	
 
 endmodule

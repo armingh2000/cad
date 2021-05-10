@@ -20,6 +20,10 @@ module multiplier_tb;
 
 	initial begin
 		// Initialize Inputs
+		a = 0;
+		b = 0;
+		
+		#100;
 		a = 2;
 		b = 3;
 
@@ -31,6 +35,10 @@ module multiplier_tb;
 		#100;
 		a = 5;
 		b = 9;
+		
+		#100;
+		a = 1;
+		b = 1;
         
 		// Add stimulus here
 
