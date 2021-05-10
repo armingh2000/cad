@@ -1,0 +1,3 @@
+verilog work "full_adder_structural.v"
+verilog work "sub_structural.v"
+verilog work "E:/xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

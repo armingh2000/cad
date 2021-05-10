@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "E:/cad_code/hw2/ripple_adder_4bit_tb_isim_beh.exe" -prj "E:/cad_code/hw2/ripple_adder_4bit_tb_beh.prj" "work.ripple_adder_4bit_tb" "work.glbl" 
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "E:/cad_code/hw2/sub_structrual_isim_beh.exe" -prj "E:/cad_code/hw2/sub_structrual_beh.prj" "work.sub_structrual" "work.glbl" 

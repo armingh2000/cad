@@ -1,4 +1,4 @@
 verilog isim_temp "full_adder.v"
 verilog isim_temp "ripple_adder_4bit.v"
 verilog isim_temp "ripple_adder_4bit_tb.v"
-verilog isim_temp "E:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"
+verilog isim_temp "E:/xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

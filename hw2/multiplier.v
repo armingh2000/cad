@@ -18,7 +18,6 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
-`timescale 1ns / 1ps
 
 module xor_3(output d,input a,input b,input c);
 	wire w1, w2, w3, w4;
