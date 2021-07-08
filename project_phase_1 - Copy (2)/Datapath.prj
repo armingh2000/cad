@@ -1,0 +1,8 @@
+verilog work "slt2.v"
+verilog work "signext.v"
+verilog work "Registerfile.v"
+verilog work "PCcontrol.v"
+verilog work "mux2.v"
+verilog work "ALU.v"
+verilog work "adder.v"
+verilog work "Datapath.v"

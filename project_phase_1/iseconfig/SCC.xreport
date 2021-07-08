@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2021-06-05T17:22:23</DateModified>
+  <DateModified>2021-07-04T08:40:31</DateModified>
   <ModuleName>SCC</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>E:/cad_code/project_phase_1/iseconfig/SCC.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>E:/cad_code/project_phase_1</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>E:/cad_code/project_phase_1\</ImplementationReportsDirectory>
   <DateInitialized>2021-06-05T17:09:18</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
